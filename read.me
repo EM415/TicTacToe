@@ -1,0 +1,42 @@
+# React
+> [React](https://reactjs.org/"React") is a JavaScript library for building user interfaces.
+> **[Create a React App](https://reactjs.org/tutorial/tutorial.html"React")** using **[Codepen.io](https://codepen.io/gaearon/pen/oWWQNa?editors=0010"Code Pen")**''
+
+### Reactive Programming
+> Using **view** libraries like react.
+> Using **state** libraries like Redux to manage data
+> this is known as reactive programming
+​
+## Components
+React is built around components. You create components by calling the **createClass** method on the react object.
+​
+### Render
+the **render()** is triggered when the component is ready to be drawn on the page.
+- if the data within this function changes React will **update** the UI
+​
+#### JSX - JavaScript Syntax Extension
+This is a Syntax that allows us to write JavaScript with XML-like tags. These tags are **Function calls** , that are turned in to **React.JS** code and **turn into** **HTML** and **JavaScript** in the **DOM**.
+> you can write JSX in **.js** . You have to use a **transpiler or pre-processor** to transform JSX to React.
+​
+#### Multiple Components
+- To **nest multiple components** you use a **return statement** of the **render function**
+- It’s the type of **parent-child relationship** you recognize from HTML.
+- **reactRender()** renders the root component into the **DOM**
+​
+### Props & State
+> The two types of data in react are **props** and **state**.
+- **State** - is **private** and can be **changed** within the **component**.
+- **Props** are **external** it is passed down from **components** whom **control** the data.
+###### Side Note :
+> **React has one directional data flow**
+​
+#### Props
+- to tell **JSX** we want to add a JavaScript expression we use **{}**
+​
+#### State
+- unlike props they are **mutable** from the components.
+- So if you want the data in your app to change — for example based on user interactions — it must be stored in a component’s state somewhere in the app
+- **initialize State**
+- **getInitialState() to the component
+- **Changing State**
+- **this.setState()** passes in the new state as the argument
